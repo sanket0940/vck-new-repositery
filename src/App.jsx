@@ -36,6 +36,7 @@ function App() {
        <div className="content">
           <Routes>
       
+            <Route path="/" element={<HomePage />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
