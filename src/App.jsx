@@ -2,13 +2,11 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 
-import Footer from "./components/Footer/Footer";
 import ContactPage from "./pages/ContactPage";
-import "./styles/pages.css";
+import "./styles/Pages.css";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/Admissions";
-import Header from "./components/Header/Header"
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
 import { useState } from "react";
